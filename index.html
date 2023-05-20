@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Store</title>
+    <script src="https://kit.fontawesome.com/1935d064dd.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css" />
+    <link href="'https://font.googleapis.com/css2? family-Poppins:wght@300;400;500600;700;&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="shortcut icon" type="image/x-icon" href="./images/logoc.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+    <header>
+        <div class="containerr">
+            <div class="logo">
+                <a href="trangchu.html">LOGO</a>
+            </div>
+            <nav>
+                <ul id="nav-list">
+                    <li><a href="trangchu.html">Home</a></li>
+                    <li><a href="sanpham.html">Product</a></li>
+                    <li><a href="chitiet.html">Detail</a></li>
+                    <li><a href="dangnhap.html">Login</a></li>
+                    <li><a href="profile.html">Profile</a></li>
+                    <div id="search-bar">
+                        <form id="search_form">
+                            <input type="text" placeholder="Tìm kiếm..." required="">
+                            <button><i class="fa fa-search"></i></button>
+                        </form>
+                    </div>
+                    <div class="gh">
+                        <a href="#"><i class="fa-solid fa-bell"></i></a>
+                        <a href="#"><i class="fa-solid fa-truck-fast"></i></a>
+                    </div>
+                </ul>
+                <a href="giohang.html" class="gh"><i class="fa-solid fa-cart-shopping"></i></a>
+                <i class="fa-solid fa-bars" id="menu-icon" onclick="menutoggle()"></i>
+            </nav>
+        </div>
+    </header>
+    <div class="row-">
+        <div class="col-2">
+            <h1>TẬP LUYỆN CHO BẠN VƯƠN TẦM THẾ GIỚI</h1>
+            <p style="font-size: 25px;">Mức độ thành công được xác định không
+                phải bởi những gì ta đã đạt được,
+                mà bởi những trở ngại ta đã vượt qua.</p>
+            <a href="sanpham.html" class="btn">Khám phá ngay &#8594;</a>
+        </div>
+        <div class="col-2">
+            <img src="./images/a3.png">
+        </div>
+    </div>
+    <h2 class="title"></h2>
+        <div class="display-container">
+            <img class="mySlides3" src="./images/td1.png">
+            <img class="mySlides3" src="./images/td2.png">
+            <img class="mySlides3" src="./images/td3.png">
+
+            <button class="image-button button-left" onclick="plusDivs(-1)">&#10094;</button>
+            <button class="image-button button-right" onclick="plusDivs(1)">&#10095;</button>
+
+            <div class="badge" style="width:100%">
+
+                <span class="image-badge" onclick="currentDiv(1)"></span>
+                <span class="image-badge" onclick="currentDiv(2)"></span>
+                <span class="image-badge" onclick="currentDiv(3)"></span>
+            </div>
+    </div>
+
+    <h2 class="title">FLASH SALE</h2>
+    <div class="small-container">
+        <div class="flash_sale">
+            <div class="flash_sale_left">
+                <div>
+                    <h1>FLASH SALE</h1>
+                </div>
+                <div></div>
+            </div>
+            <div class="flash_sale_right">
+                <a href="sanpham.html">Xem tất cả &#8594;</a>
+            </div>
+        </div>
+        <div class="sp_sale">
+            <div class="row">
+                <div class="col-4">
+                    <a href="chitiet.html"><img src="./images/nike1.jpg"></a>
+                    <a href="chitiet.html">
+                        <h4>Nemeziz 18.3</h4>
+                    </a>
+                    <h2 class="sale-h2">
+                        <sup>$</sup>400<small>.000</small>
+                    </h2>
+                    <div class="sl_sale">Đã bán 53</div>
+                </div>
+                <div class="col-4">
+                    <a href="chitiet.html"><img src="./images/nike2.jpg"></a>
+                    <a href="chitiet.html">
+                        <h4>Nemeziz 18.3</h4>
+                    </a>
+                    <h2 class="sale-h2">
+                        <sup>$</sup>400<small>.000</small>
+                    </h2>
+                    <div class="sl_sale">Đã bán 73</div>
+                </div>
+                <div class="col-4">
+                    <a href="chitiet.html"><img src="./images/nike3.jpg"></a>
+                    <a href="chitiet.html">
+                        <h4>Nemeziz 18.3</h4>
+                    </a>
+
+                    <h2 class="sale-h2">
+                        <sup>$</sup>400<small>.000</small>
+                    </h2>
+                    <div class="sl_sale">Đã bán 105</div>
+                </div>
+                <div class="col-4">
+                    <a href="chitiet.html"><img src="./images/nike4.jpg"></a>
+                    <a href="chitiet.html">
+                        <h4>Nemeziz 18.3</h4>
+                    </a>
+
+                    <h2 class="sale-h2">
+                        <sup>$</sup>400<small>.000</small>
+                    </h2>
+                    <div class="sl_sale">Đã bán 88</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="small-container">
+        <h2 class="title">Sản phẩm mới nhất</h2>
+        <div class="row">
+            <div class="col-4">
+                <a href="sanpham.html"> <img src="./images/puma.jpg"></a>
+                <a href="sanpham.html">
+                    <h4> Puma Future Z 1.1</h4>
+                </a>
+
+
+                <h2 class="sale-h2">
+                    <sup>$</sup>400<small>.000</small>
+                </h2>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+            </div>
+            <div class="col-4">
+                <a href="sanpham.html"> <img src="./images/mer2.jpg"></a>
+                <a href="sanpham.html">
+                    <h4>Mercurial Vapor 14 pro</h4>
+                </a>
+
+
+                <h2 class="sale-h2">
+                    <sup>$</sup>400<small>.000</small>
+                </h2>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+            </div>
+            <div class="col-4">
+                <a href="sanpham.html"> <img src="./images/puma2.jpg"></a>
+                <a href="sanpham.html">
+                    <h4> Puma Future Z 1.1</h4>
+                </a>
+
+
+                <h2 class="sale-h2"> 
+                    <sup>$</sup>400<small>.000</small>
+                </h2>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+            </div>
+            <div class="col-4">
+                <a href="sanpham.html"> <img src="./images/mer.jpg"></a>
+                <a href="sanpham.html">
+                    <h4> Puma Future Z 1.1</h4>
+                </a>
+
+
+                <h2 class="sale-h2">
+                    <sup>$</sup>400<small>.000</small>
+                </h2>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="offer">
+        <div class="small-conterner">
+            <div class="row">
+                <div class="col-2">
+                    <a href=""><img src="./images/lionel-messi.png" class="off-img"></a>
+                </div>
+                <div class="col-2">
+                    <p class="m">Độc quyền tại</p>
+                    <h1 class="m">POW STORE</h1>
+                    <small class="m">Mang niềm đam mê đi khắp nơi<br>Chúng ta có thể không hoàn hảo nhưng đừng để nó cản
+                        bước đam mê
+                    </small>
+                    <a href="sanpham.html" class="btn">Mua ngay &#8594;</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="testimonial">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3">
+                    <img src="./images/phone.webp" alt="">
+                    <h1>Hỗ trợ 24/24</h1>
+                    <p>0909777777</p>
+                </div>
+                <div class="col-3">
+                    <img src="./images/diachi.jpg" alt="">
+                    <h1>Trụ sở</h1>
+                    <p>Quận Tân Phú, TP.HCM</p>
+                </div>
+                <div class="col-3">
+                    <img src="./images/giaohang.png" alt="">
+                    <h1>Hỏa tốc</h1>
+                    <p>Đặt hàng ngay</p>
+                </div>
+                <div class="col-3">
+                    <img src="./images/vi.jpg" alt="">
+                    <h1>Cam kết</h1>
+                    <p>100% hàng chính hãng</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="brands">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-5">
+                    <img src="./images/goo.png">
+                </div>
+                <div class="col-5">
+                    <img src="./images/coca-cola1.png">
+                </div>
+                <div class="col-5">
+                    <img src="./images/oppo.png">
+                </div>
+                <div class="col-5">
+                    <img src="./images/pepsi2.png">
+                </div>
+                <div class="col-5">
+                    <img src="./images/paypal1.png">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Tải App</h3>
+                    <p>Tải xuống App cho điện thoại Android và IOS.</p>
+                    <div class="app-logo">
+                        <img src="./images/app-2store.png">
+                        <img src="./images/google-play-png-logo.png">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="./images/logo.png">
+                    <p>Tải xuống App cho điện thoại Android và IOS.</p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Tải App ngay</h3>
+                    <ul>
+                        <li>Phiếu giảm giá</li>
+                        <li>Bài viết trên blog</li>
+                        <li> Chính sách đổi trả</li>
+                        <li>Tham gia liên kết</li>
+                        <li>Thẻ thành viên</li>
+                        <li>Hoạt động giải trí</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow PowStore</h3>
+                    <ul>
+                        <li> Facebook</li>
+                        <li> Twitter</li>
+                        <li>Instagram</li>
+                        <li>Youtobe</li>
+                        <li>TikTok</li>
+                    </ul>
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="#"><i class="fa-brands fa-tiktok"></i></i></a>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright 2023 - Easy Tutorials</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script>
+        var slideIndex = 1;
+        showDivs(slideIndex);
+
+        function plusDivs(n) {
+            showDivs(slideIndex += n);
+        }
+
+        function currentDiv(n) {
+            showDivs(slideIndex = n);
+        }
+
+        function showDivs(n) {
+            var i;
+            var x = document.getElementsByClassName("mySlides3");
+            var dots = document.getElementsByClassName("image-badge");
+            if (n > x.length) { slideIndex = 1 }
+            if (n < 1) { slideIndex = x.length }
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" badge-white", "");
+            }
+            x[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " badge-white";
+        }
+    </script>
+</body>
+
+</html>

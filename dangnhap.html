@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Store</title>
+    <script src="https://kit.fontawesome.com/1935d064dd.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css" />
+    <link href="'https://font.googleapis.com/css2? family-Poppins:wght@300;400;500600;700;&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="shortcut icon" type="image/x-icon" href="./images/logoc.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+    <header>
+        <div class="containerr">
+            <div class="logo">
+                <a href="trangchu.html">LOGO</a>
+            </div>
+            <nav>
+                <ul id="nav-list">
+                    <li><a href="trangchu.html">Home</a></li>
+                    <li><a href="sanpham.html">Product</a></li>
+                    <li><a href="chitiet.html">Detail</a></li>
+                    <li><a href="dangnhap.html">Login</a></li>
+                    <li><a href="profile.html">Profile</a></li>
+                    <div id="search-bar">
+                        <form id="search_form">
+                            <input type="text" placeholder="Tìm kiếm..." required="">
+                            <button><i class="fa fa-search"></i></button>
+                        </form>
+                    </div>
+                    <div class="gh">
+                        <a href="#"><i class="fa-solid fa-bell"></i></a>
+                        <a href="#"><i class="fa-solid fa-truck-fast"></i></a>
+                    </div>
+                </ul>
+                <a href="giohang.html" class="gh"><i class="fa-solid fa-cart-shopping"></i></a>
+                <i class="fa-solid fa-bars" id="menu-icon" onclick="menutoggle()"></i>
+            </nav>
+        </div>
+    </header>
+    <div class="account-page">
+        <div class="container">
+            <div class="row">
+                <div class="col-2">
+                    <img src="./images/Messi-silueta.png.png" width="100%">
+                </div>
+                <div class="col-2">
+                    <div class="form-conainer">
+                        <div class="form-btn">
+                            <span onclick="login()">Login</span>
+                            <span onclick="register()">Regiter</span>
+                            <hr id="Indicator">
+                        </div>
+                        <form id="LoginForm">
+                            <input type="text" placeholder="Tên người dùng">
+                            <input type="pass" placeholder="Mật khẩu">
+                            <button type="submit" class="btn">Đăng nhập</button>
+                            <a class="q" href="">Quên mật khẩu?</a>            
+                            <div class="icon-dn">
+                                <p>Hoặc đăng nhập với?</p>
+                                <a href="#LoginForm" class="fb"><i class="fa-brands fa-facebook"></i></a>
+                                <a href="#LoginForm" class="gg"><i class="fa-brands fa-google"></i></a>
+                            </div>
+                            
+                        </form>
+                        <form id="RegForm">
+                            <input type="text" placeholder="Tên người dùng">
+                            <input type="email" placeholder="Email">
+                            <input type="pass" placeholder="Mật khẩu">
+                            <button type="submit" class="btn">Đăng kí</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Tải App</h3>
+                    <p>Tải xuống App cho điện thoại Android và IOS.</p>
+                    <div class="app-logo">
+                        <img src="./images/app-2store.png">
+                        <img src="./images/google-play-png-logo.png">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="./images/logo.png">
+                    <p>Tải xuống App cho điện thoại Android và IOS.</p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Tải App ngay</h3>
+                    <ul>
+                        <li>Phiếu giảm giá</li>
+                        <li>Bài viết trên blog</li>
+                        <li> Chính sách đổi trả</li>
+                        <li>Tham gia liên kết</li>
+                        <li>Thẻ thành viên</li>
+                        <li>Hoạt động giải trí</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow PowStore</h3>
+                    <ul>
+                        <li> Facebook</li>
+                        <li> Twitter</li>
+                        <li>Instagram</li>
+                        <li>Youtobe</li>
+                        <li>TikTok</li>
+                    </ul>
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="#"><i class="fa-brands fa-tiktok"></i></i></a>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright 2023 - Easy Tutorials</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
